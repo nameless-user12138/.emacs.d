@@ -1,0 +1,2 @@
+;;; Generated package description from /home/kakao/.emacs.d/elpa/ivy-prescient-20200716.1414/ivy-prescient.el  -*- no-byte-compile: t -*-
+(define-package "ivy-prescient" "20200716.1414" "prescient.el + Ivy" '((emacs "25.1") (prescient "5.0") (ivy "0.11.0")) :commit "41443e1c9f794b569dafdad4c0b64a608df64b99" :keywords '("extensions") :authors '(("Radon Rosborough" . "radon.neon@gmail.com")) :maintainer '("Radon Rosborough" . "radon.neon@gmail.com") :url "https://github.com/raxod502/prescient.el")
