@@ -7,4 +7,4 @@
       ("Tools"
        (("l" org-lint "lint")))))
 
-(provide 'major-mode-hydra)
+(provide 'init-major-mode-hydra)

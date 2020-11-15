@@ -2,4 +2,4 @@
   :config
   (setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l)))
 
-(provide 'ace-window)
+(provide 'init-ace-window)

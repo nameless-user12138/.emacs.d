@@ -2,4 +2,4 @@
   :config
   (add-hook 'after-init-hook 'which-key-mode))
 
-(provide 'which-key)
+(provide 'init-which-key)

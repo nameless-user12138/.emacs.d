@@ -10,7 +10,6 @@
 
 ;; gc
 (setq gc-cons-threshold 10000000)
-
   ;; Restore after startup
   (add-hook 'after-init-hook
             (lambda ()
@@ -20,7 +19,19 @@
 
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
+
 (require 'editor)
-(require 'extra)
+(require 'init-theme)
+(require 'init-evil)
+(require 'init-ui)
+;;(require 'init-telephone-line)
+(require 'init-ace-window)
+(require 'init-vterm)
+(require 'init-major-mode-hydra)
+(require 'init-ivy)
+(require 'init-which-key)
+(require 'init-company)
+(require 'init-lsp-mode)
+(require 'init-ccls)
 
 (provide 'core)
