@@ -3,8 +3,17 @@
 
 (setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
+(package-initialize)
 
+;; use-package
 
+;; FIRST OF ALL
+(unless (package-installed-p 'use-package)
+    (package-refresh-contents)
+    (package-install 'use-package)
+    (eval-when-compile (require 'use-package)))
+(setq use-package-always-ensure t)
+;; END
 
 (defun add-subdirs-to-load-path(dir)
   "Recursive add directories to `load-path'."
