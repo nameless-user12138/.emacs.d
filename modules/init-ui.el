@@ -11,7 +11,7 @@
 (setq inhibit-splash-screen t) ; Close the startup screen
 
 
-(set-frame-font "CodeNewRoman Nerd Font mono 20" nil t)
+(set-frame-font "FiraCode Nerd Font mono 18" nil t)
 
 (setq ring-bell-function 'ignore)
 (defalias 'yes-or-no-p 'y-or-n-p)

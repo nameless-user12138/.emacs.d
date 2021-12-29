@@ -89,7 +89,6 @@
 	:init
 	(meow-global-mode 1)
 	:config
-	(meow-setup)
-)
+	(meow-setup))
 
 (provide 'init-meow)
